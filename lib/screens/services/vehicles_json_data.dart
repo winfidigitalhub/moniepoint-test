@@ -14,41 +14,16 @@ const allVehicles = [
   {
     'type': 'Ocean Freight',
     'status': 'International',
-    'imagePath': 'assets/images/box_green.jpeg',
+    'imagePath': 'assets/images/oceanfreight.png',
   },
   {
-    'type': 'Ocean Freight',
+    'type': 'Cargo Freight',
     'status': 'International',
-    'imagePath': 'assets/images/forklift.jpeg',
+    'imagePath': 'assets/images/cargofreight.png',
   },
   {
-    'type': 'Ocean Freight',
+    'type': 'Air Freight',
     'status': 'International',
-    'imagePath': 'assets/images/profile_picture.jpg',
-  },
-  {
-    'type': 'Ocean Freight',
-    'status': 'International',
-    'imagePath': 'assets/images/box_green.jpeg',
-  },
-  {
-    'type': 'Ocean Freight',
-    'status': 'International',
-    'imagePath': 'assets/images/forklift.jpeg',
-  },
-  {
-    'type': 'Ocean Freight',
-    'status': 'International',
-    'imagePath': 'assets/images/profile_picture.jpg',
-  },
-  {
-    'type': 'Ocean Freight',
-    'status': 'International',
-    'imagePath': 'assets/images/box_green.jpeg',
-  },
-  {
-    'type': 'Ocean Freight',
-    'status': 'International',
-    'imagePath': 'assets/images/forklift.jpeg',
+    'imagePath': 'assets/images/airfreight .png',
   },
 ];

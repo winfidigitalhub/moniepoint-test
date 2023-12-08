@@ -48,8 +48,8 @@ class _AvailableVehicleCardState extends State<AvailableVehicleCard> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   image: DecorationImage(
-                    image: AssetImage(widget.imagePath),
-                    fit: BoxFit.cover,
+                    image: Image.asset(widget.imagePath, scale: 1,).image,
+                    fit: BoxFit.fill,
                   ),
                 ),
               ),

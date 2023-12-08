@@ -85,14 +85,21 @@ class _InProgressShipmentState extends State<InProgressShipment> with TickerProv
       child: Scaffold(
         body: Stack(
           children: [
-            const Positioned(
-              top: 1,
-              left: 1,
-              child: Padding(
-                padding: EdgeInsets.only(top: 10, right: 10, left: 10, bottom: 10),
-                child: Text(
-                  'Shipments',
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+            Container(
+              height: double.infinity,
+              width: double.infinity,
+              color: Colors.grey.shade100,
+              child: Positioned(
+                top: 0,
+                left: 0,
+                child: Container(
+                  width: MediaQuery.of(context).size.width,
+                  color: Colors.grey.shade100,
+                  padding: EdgeInsets.only(top: 10, right: 10, left: 10, bottom: 50),
+                  child: const Text(
+                    'Shipments',
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+                  ),
                 ),
               ),
             ),
@@ -209,7 +216,7 @@ class _InProgressShipmentState extends State<InProgressShipment> with TickerProv
                     begin: Alignment.bottomCenter,
                     end: Alignment.topCenter,
                     colors: [
-                      Colors.transparent,
+                      Colors.white70,
                       Colors.white54,
                     ],
                   ),

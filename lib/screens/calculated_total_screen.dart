@@ -66,7 +66,7 @@ class _CalculatedTotalScreenState extends State<CalculatedTotalScreen>
                 SlideTransition(
                   position: _cardSlideAnimation,
                   child: Image.asset(
-                    'assets/images/movemate.png',
+                    'assets/images/movematelogo.png',
                     height: 60,
                   ),
                 ),
